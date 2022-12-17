@@ -40,20 +40,27 @@ body {
   font-size: 2rem;
 }
 
-.icon {
+.px-2 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.linkedIn {
   padding: 0;
   margin: 0;
   border: none;
   transform: scale(2);
   background: none;
+  border: none;
+  color: #eef;
 }
 
-.icon:hover {
+.linkedIn:hover {
   color: #0072b1;
   cursor: pointer;
 }
 
-.icon:focus,
-.icon:active {
+.linkedIn:focus,
+.linkedIn:active {
   color: #0080b1;
 }
