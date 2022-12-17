@@ -5,7 +5,7 @@ type Props = {
 };
 
 const Layout: FunctionComponent<Props> = ({ children }) => (
-  <div className="fullscreen flex-center col-gap-2">{children}</div>
+  <div className="fullscreen flex-center col-gap-2 px-2">{children}</div>
 );
 
 export default Layout;
